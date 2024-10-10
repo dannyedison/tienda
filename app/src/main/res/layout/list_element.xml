@@ -13,7 +13,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/nombre"
+            android:id="@+id/nombreTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
@@ -21,14 +21,14 @@
             android:layout_marginTop="8dp"/>
 
         <TextView
-            android:id="@+id/precio"
+            android:id="@+id/precioTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:textColor="@android:color/holo_green_dark"/>
 
         <ImageView
-            android:id="@+id/imagen"
+            android:id="@+id/imagenImageView"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:scaleType="centerCrop" />
